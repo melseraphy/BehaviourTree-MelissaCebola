@@ -1,0 +1,7 @@
+tree "Idle"
+    sequence
+        while
+            not alert
+            parallel
+                SurveyAround
+                Wait 4.0
